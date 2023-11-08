@@ -1,16 +1,7 @@
 import React from "react";
 
 function Nav(props){
-    const AppNav = {
-        backgroundColor:" #420c34",
-        minHeight: "10vh",
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "center",
-        fontSize: "calc(10px + 2vmin)",
-        color: "white",
-      }
+    
     return(
         <>
             <nav style={AppNav} className="main-nav">
